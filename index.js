@@ -145,11 +145,11 @@ conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 else if (text == '#owner'){
 conn.sendMessage(id, 'Owner DRA wa.me/+6281292709196' ,MessageType.text);
 }
-else if (text == 'affis'){
-conn.sendMessage(id, 'Aku BOT nya DRA' ,MessageType.text);
+else if (text == 'Bot'){
+conn.sendMessage(id, 'Apa sayang? Ketik #menu untuk bantuan (Bot 1)' ,MessageType.text);
 }
-else if (text == 'audio'){
-conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
+else if (text == 'bot'){
+conn.sendMessage(id, 'Apa sayang? Ketik #menu untuk bantuan (Bot 1)' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
