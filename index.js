@@ -1,6 +1,6 @@
-const  XBOT = 'AMPIBI'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/affis_saputro123'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6282334297175'; // Nomor whatsapplu cok
+const  DRA = 'Okaima'; // Nama Bot Whatsapp
+const instagram = 'comming soon'; // Nama Instagramlu cok
+const nomer = 'https://Wa.me/+6281292709196'; // Nomor whatsapplu cok
 const aktif = 'Tergantung kuota'; // Kapan bot lu aktif
 const groupwa = 'comming soon'; // OFFICIAL GRUP LU 1
 const youtube = 'https://youtube.com/channel/UCYKxsg7iF9a9IZyXQRNsvqw'; 
@@ -21,9 +21,9 @@ const speed = require('performance-now');
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:affis\n' // full name
-            + 'ORG:Owner  XBOT Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' // WhatsApp ID + phone number
+            + 'FN:DEN\n' // full name
+            + 'ORG:Owner  DRA Bot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6281292709196:+62 812-9270-9196\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 
 const
@@ -143,13 +143,13 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, 'Owner XBOT wa.me/+6282334297175' ,MessageType.text);
+conn.sendMessage(id, 'Owner XBOT wa.me/+6281292709196' ,MessageType.text);
 }
-else if (text == 'affis'){
-conn.sendMessage(id, 'Aku BOT nya XBOT' ,MessageType.text);
+else if (text == 'hmm'){
+conn.sendMessage(id, 'knapa nieh??' ,MessageType.text);
 }
-else if (text == 'audio'){
-conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
+else if (text == 'sepi'){
+conn.sendMessage(id, 'makanya cari member yang aktif ' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
@@ -833,7 +833,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, menu.menu(id,  XBOT, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, menu.menu(id,  DRA, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '#donasi'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -870,7 +870,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id,  XBOT, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id,  DRA, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '#donate'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -907,7 +907,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id,  XBOT, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id,  DRA, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '#donasi'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -944,7 +944,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id,  XBOT, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id,  DRA, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '#DONATE'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -981,7 +981,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id,  XBOT, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id,  DRA, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '#DONASI'){
   const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1018,7 +1018,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id,  XBOT, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id,  DRA, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '#info'){
   const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1055,16 +1055,16 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, info.info(id,  XBOT, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, info.info(id,  DRA, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '#foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *XBOT* , Follow Instagram Mimin Yah🔍� : https://instagram.com/@affis_saputro123' ,MessageType.text);
+conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *DRA* ' ,MessageType.text);
 }
 else if (text == '#info'){
-conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *XBOT* , Follow Instagram Mimin Yah🔍� : https://instagram.com/@affis_saputro123' ,MessageType.text);
+conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *DRA* ' ,MessageType.text);
 }
 if (messageType == 'imageMessage')
    {
