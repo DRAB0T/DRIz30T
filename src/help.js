@@ -1,7 +1,7 @@
 const help = (prefix, pushname) => {
 	return `✪═⟪ CALIPH BOT MENU ⟫═✪
 
-*AUTHOR : CALIPH A*
+*AUTHOR : DENDRA R*
 *BOT TYPE : TERMUX*
 
 ╔════════════════════
@@ -45,16 +45,16 @@ const help = (prefix, pushname) => {
 ║╰───────────
 ║╭──❉ *IKLAN* ❉──
 ║│1. Instagram
-║│ @caliph91_
-║│2. Creator Caliph Bot
-║│ https://wa.me/6281215199447
+║│      -_-
+║│2. Creator Den Bot
+║│ https://wa.me/6281292709196
 ║╰───────────
 ║╭──❉ *PERATURAN* ❉──
 ║│1. JANGAN NELPON
 ║│2. JANGAN SPAM
 ║╰───────────
 ╠════════════════════
-║  _*END*_
+║  _*THANKS*_
 ╚════════════════════`
 }
 
